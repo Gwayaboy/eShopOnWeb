@@ -7,8 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="EndToEnd\**" />
     <Compile Remove="WebRazorPages\**" />
+    <EmbeddedResource Remove="EndToEnd\**" />
     <EmbeddedResource Remove="WebRazorPages\**" />
+    <None Remove="EndToEnd\**" />
     <None Remove="WebRazorPages\**" />
   </ItemGroup>
 
